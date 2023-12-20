@@ -25,9 +25,6 @@ def configure_ssh():
 
     os.system('sudo systemctl restart ssh')
 
-    # Restart the Apache service
-
-    os.system('sudo systemctl restart apache2')
 
 if __name__ == '__main__':
     configure_apache()
